@@ -26,4 +26,8 @@ public class SampleStringTest extends TestCase{
 	public void testSubtration(){
 		assertEquals(r2 , a-b);/*result*/
 	}
+	
+	public void testNothing(){
+		System.out.println("nothing");
+	}
 }
