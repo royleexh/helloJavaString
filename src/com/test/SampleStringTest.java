@@ -20,10 +20,10 @@ public class SampleStringTest extends TestCase{
 	}
 	
 	public void testAdd(){
-		assertEquals(r1 , a+b);/*¼ì²â²âÊÔ½á¹û*/
+		assertEquals(r1 , a+b);/*testResult*/
 	}
 	
 	public void testSubtration(){
-		assertEquals(r2 , a-b);/*¼ì²â²âÊÔ½á¹û*/
+		assertEquals(r2 , a-b);/*result*/
 	}
 }
