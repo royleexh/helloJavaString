@@ -19,7 +19,8 @@ public class SampleStringTest extends TestCase{
 	
 	public void testCharAt(){
 		String str = "abcde";
-		assertEquals("testCharAt", "b", str.charAt(1));
+		assertEquals("testCharAt", 'b', str.charAt(12));
+		//assertEquals("testCharAt", "b", str.charAt(2));
 		//assertEquals("testCharAt", 'b', str.charAt(1));
 	}
 	
