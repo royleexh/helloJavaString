@@ -3,7 +3,6 @@ package com.test;
 import junit.framework.TestCase;
 
 /**
- * 
  * @author royleexh
  */
 public class SampleStringTest extends TestCase{
