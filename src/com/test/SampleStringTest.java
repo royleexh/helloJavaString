@@ -19,7 +19,11 @@ public class SampleStringTest extends TestCase{
 	
 	public void testCharAt(){
 		String str = "abcde";
-		assertEquals("testCharAt", 'b', str.charAt(12));
+		try {
+            assertEquals("testCharAt", 'b', str.charAt(12));
+            fail("Should throw IndexOutOfBoundsException");
+        } catch (IndexOutOfBoundsException e) {
+        }
 		//assertEquals("testCharAt", "b", str.charAt(2));
 		//assertEquals("testCharAt", 'b', str.charAt(1));
 	}
@@ -37,7 +41,7 @@ public class SampleStringTest extends TestCase{
 	public void testConcat(){
 		String str1 = "Hello";
 		String str2 = "Hello";
-        assertEquals("testConcat", "Hellojava", str1.concat(str2));
+        assertEquals("testConcat", "HelloHello", str1.concat(str2));
 	}
 	
 	public void testContains(){
@@ -49,7 +53,7 @@ public class SampleStringTest extends TestCase{
 	public void testContentEquals(){
 		String str1 = "hello";
 		String str2 = "el";
-		assertTrue("testContentEquals", str1.contentEquals(str2));
+		assertFalse("testContentEquals", str1.contentEquals(str2));
 	}
 	
 	public void testEndsWith(){
@@ -61,7 +65,7 @@ public class SampleStringTest extends TestCase{
 	public void testEquals(){
 		String a = "String";
         String b = "string";
-        assertTrue("testEquals", a.equals(b));
+        assertFalse("testEquals", a.equals(b));
 	}
 	
 	public void testEqualsIgnoreCase(){
@@ -72,7 +76,7 @@ public class SampleStringTest extends TestCase{
 	
 	public void testHashCode(){
 		String str = "String";
-		assertEquals("testHashCode", 123 , str.hashCode());
+		assertEquals("testHashCode", -1808118735 , str.hashCode());
 	}
 	
 	public void testIndexOf(){
@@ -87,7 +91,7 @@ public class SampleStringTest extends TestCase{
 	
 	public void testIsEmpty(){
 		String str = "String";
-		assertTrue("testIsEmpty", str.isEmpty());
+		assertFalse("testIsEmpty", str.isEmpty());
 	}
 	
 	public void testlength(){
@@ -120,13 +124,13 @@ public class SampleStringTest extends TestCase{
 	
 	public void teststartsWith(){
 		String str = "String";
-		assertTrue("teststartsWith", str.startsWith("abc"));
+		assertFalse("teststartsWith", str.startsWith("abc"));
 	}
 	
 	public void testSubstring(){
 		String str="hellochinese";
         String s=str.substring(0,3);
-        assertEquals("hell", s);
+        assertEquals("hel", s);
 	}
 	
 	public void testToCharArray(){
