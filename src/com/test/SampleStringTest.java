@@ -5,6 +5,7 @@ import junit.framework.TestCase;
 
 /**
  * @author royleexh
+ * update 201311071347
  */
 public class SampleStringTest extends TestCase {
 
