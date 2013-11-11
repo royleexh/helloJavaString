@@ -9,14 +9,6 @@ import junit.framework.TestCase;
  */
 public class SampleStringTest extends TestCase {
 
-    protected void setUp() throws Exception {
-
-    }
-
-    protected void tearDown() {
-
-    }
-
     public void testCharAt() {
         String str = "abcde";
         try {
