@@ -3,6 +3,10 @@ package com.test;
 
 import junit.framework.TestCase;
 
+/**
+ * @author xiaohanx
+ * update 20131111
+ */
 public class SampleStringTest extends TestCase {
 
     public void testCharAt() {
