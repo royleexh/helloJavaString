@@ -3,19 +3,7 @@ package com.test;
 
 import junit.framework.TestCase;
 
-/**
- * @author royleexh
- * update 201311071613
- */
 public class SampleStringTest extends TestCase {
-
-    protected void setUp() throws Exception {
-
-    }
-
-    protected void tearDown() {
-
-    }
 
     public void testCharAt() {
         String str = "abcde";
