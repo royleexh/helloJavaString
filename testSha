@@ -5,4 +5,6 @@ when i change config for "Poll SCM" jenkins do once build.
 
 Open Poll SCM and ${sha1}
 
-Maybe "Poll SCM" + ${sha1} can work!
+Maybe "Poll SCM" + ${sha1} can't work!
+
+Also check Ignore post-commit hooks
