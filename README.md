@@ -1,3 +1,4 @@
+add some parameters to java -jar 
 Ok, i give up, i use ** to match the branchs
 
 Maybe we need to use this: origin/pr/${ghprbPullId}/merge
