@@ -1,6 +1,8 @@
+Maybe we need to use this: origin/pr/${ghprbPullId}/merge
+
 we need a read me.
 
-why as bellow:
+why as bellow when use ${sha1}:
 
 Error while serving http://10.239.44.7:8080/job/jenkins%20PR%20github%20test/buildHistory/ajax
 java.lang.reflect.InvocationTargetException
