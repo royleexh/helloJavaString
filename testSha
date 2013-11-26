@@ -1,3 +1,4 @@
 testSha
 
 ${sha} parameter is not corrcet!
+when i change config for "Poll SCM" jenkins do once build.
