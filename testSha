@@ -4,7 +4,7 @@ testSha
 
 [check]GitHub pull requests builder
 
-[check]Poll SCM
+[not check]Poll SCM
 
 ------------------------------
 
