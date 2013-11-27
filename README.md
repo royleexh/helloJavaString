@@ -1,7 +1,9 @@
 now,
--Dhttp.proxyHost -Dhttp.proxyPort -Dhttps.proxyHost -Dhttps.proxyPort  -DsocksProxyHost
+-DsocksProxyHost  -DsocksProxyPort
 
--Dhttp.proxyHost -Dhttp.proxyPort  -DsocksProxyHost :
+failed: -Dhttp.proxyHost -Dhttp.proxyPort -Dhttps.proxyHost -Dhttps.proxyPort  -DsocksProxyHost
+
+failed: -Dhttp.proxyHost -Dhttp.proxyPort  -DsocksProxyHost :
 
 Error while serving http://10.239.44.7:8080/job/jenkins%20PR%20github%20test/buildHistory/ajax
 java.lang.reflect.InvocationTargetException
