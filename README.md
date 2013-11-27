@@ -1,5 +1,5 @@
 now,
--DsocksProxyHost  -DsocksProxyPort
+-DsocksProxyHost
 
 failed: -Dhttp.proxyHost -Dhttp.proxyPort -Dhttps.proxyHost -Dhttps.proxyPort  -DsocksProxyHost
 
