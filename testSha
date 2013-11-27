@@ -1,6 +1,6 @@
 testSha
 
-[check]Build when a change is pushed to GitHub
+[not check]Build when a change is pushed to GitHub
 
 [check]GitHub pull requests builder
 
