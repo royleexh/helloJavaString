@@ -1,11 +1,7 @@
-add some parameters to java -jar 
-Ok, i give up, i use ** to match the branchs
+now,
+-Dhttp.proxyHost -Dhttp.proxyPort -Dhttps.proxyHost -Dhttps.proxyPort  -DsocksProxyHost
 
-Maybe we need to use this: origin/pr/${ghprbPullId}/merge
-
-we need a read me.
-
-why as bellow when use ${sha1}:
+-Dhttp.proxyHost -Dhttp.proxyPort  -DsocksProxyHost :
 
 Error while serving http://10.239.44.7:8080/job/jenkins%20PR%20github%20test/buildHistory/ajax
 java.lang.reflect.InvocationTargetException
