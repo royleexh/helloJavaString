@@ -1,10 +1,4 @@
 testSha
 
-${sha} parameter is not corrcet!
-when i change config for "Poll SCM" jenkins do once build.
+only ${sha1} parameter is ok!
 
-Open Poll SCM and ${sha1}
-
-Maybe "Poll SCM" + ${sha1} can't work!
-
-Also check Ignore post-commit hooks
