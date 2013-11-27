@@ -1,10 +1,10 @@
 testSha
 
-Build when a change is pushed to GitHub
+[not check]Build when a change is pushed to GitHub
 
-GitHub pull requests builder
+[check]GitHub pull requests builder
 
-Poll SCM
+[not check]Poll SCM
 
 ------------------------------
 
