@@ -1,12 +1,3 @@
 testSha
-
-[not check]Build when a change is pushed to GitHub
-
-[check]GitHub pull requests builder
-
-[not check]Poll SCM
-
-------------------------------
-
 only ${sha1} parameter is ok!
 
