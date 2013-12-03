@@ -1,3 +1,4 @@
 testSha
-only ${sha1} parameter is ok!
 
+[check]GitHub pull requests builder
+only ${sha1} parameter is ok!
